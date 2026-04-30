@@ -8,4 +8,6 @@ function changePic() {
     img.src = "assets/images/cat.jpg";
   }
   isCat = !isCat;
+
 }
+setInterval(changePic, 1000);
