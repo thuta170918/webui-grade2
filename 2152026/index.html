@@ -101,8 +101,10 @@
                     <input type="number" name="guestCount" id="guestCount" min="1" max="20"> 
 
                 </div>
-                <button>予約する</button>
-               </div>               
+                <button onclick="reserve()">予約する</button>
+               </div>  
+               
+               <p id="reserveResult" class="reserve-result"></p>
             </div>
             </section>
             <!-- Access：営業時間・住所・電話 -->
@@ -118,6 +120,8 @@
 
         <p>Email: info@cafeocc.com</p>
         <p>&copy; 2026 Cafe OCC. All rights reserved.</p>
+
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
