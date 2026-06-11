@@ -1,0 +1,11 @@
+{
+    "location": {
+        "address": "1-2-3 Dotonbori, Chuo Ward, Osaka, 542-0071, Japan",
+        "phone": "+81 6-1111-2222",
+        "hours": "Daily: 17:00 - 23:00",
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.396556481711!2d135.5013093!3d34.6687315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7136018260b%3A0x6a56e21685e82101!2z6YGT6YGT5堀!5e0!3m2!1sja!2sjp!4v1710000000000"
+    },
+    "reservation": {
+        "policy": "We accept bookings up to 3 months in advance. For parties larger than 6, please contact us directly."
+    }
+}

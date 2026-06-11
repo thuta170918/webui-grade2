@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Miyazaki Striploin",
+        "description": "Smoked over binchotan, served with aged soy and fresh wasabi.",
+        "price": "$145"
+    },
+    {
+        "name": "Hokkaido A5 Fillet",
+        "description": "Butter-poached with truffle salt and seasonal micro-greens.",
+        "price": "$180"
+    },
+    {
+        "name": "Kuroge Washu Carpaccio",
+        "description": "Thinly sliced with gold leaf and 12-year aged balsamic.",
+        "price": "$65"
+    }
+]

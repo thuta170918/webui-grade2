@@ -3,14 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poke API</title>
+    <title>Chef's Kiss | Premium Wagyu Dining</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Section 1: ピカチュウの情報を取得する -->
-    <section>
-        <input id="name" placeholder="ポケモン名を入力">
-        <button id="section1-btn">検索</button>
-        <p id="section1-result"></p>
+    <header>
+        <nav>
+            <div class="logo">Chef's Kiss</div>
+            <ul>
+                <li><a href="#menu">The Menu</a></li>
+                <li><a href="#inspiration">Inspiration</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#reserve" class="nav-btn">Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <span class="fade-in">Established in Osaka</span>
+            <h1 class="fade-in">Miyazaki A5 Wagyu</h1>
+            <p class="fade-in">An immersive culinary journey through Japan’s finest heritage beef.</p>
+            <a href="#reserve" class="gold-button fade-in">Book an Experience</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Chef's Tasting</h2>
+            <div id="menu-items">
+                <!-- Content will be injected or kept static for SEO -->
+                <div class="menu-item">
+                    <h3>Miyazaki Striploin</h3>
+                    <p>Smoked over binchotan, served with aged soy and fresh wasabi.</p>
+                    <span class="price">$145</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inspiration" class="inspiration-section">
+        <div class="container fade-in">
+            <h2 class="section-title">Chef's Daily Inspiration</h2>
+            <div id="food-api-content" class="inspiration-content">
+                <!-- API Content Injected Here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="info-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Find Us in Osaka</h2>
+            <div class="info-grid fade-in">
+                <div class="info-details">
+                    <p><strong>Address:</strong> <span id="address">Loading...</span></p>
+                    <p><strong>Phone:</strong> <span id="phone">Loading...</span></p>
+                    <p><strong>Hours:</strong> <span id="hours">Loading...</span></p>
+                </div>
+                <div class="info-map">
+                    <iframe id="map-frame" src="" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reserve" class="reserve-section">
+        <div class="container fade-in">
+            <h2 class="section-title">Make a Reservation</h2>
+            <p id="reserve-policy" class="policy-text"></p>
+            <div class="reserve-controls">
+                <a href="#" class="gold-button">Check Availability</a>
+            </div>
+        </div>
     </section>
 
     <script src="script.js"></script>
